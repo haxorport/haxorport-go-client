@@ -1,0 +1,14 @@
+auth_enabled: true
+auth_token: "hxp_5c08c77c9bc999a673d4aa2514aa17ac"
+auth_validation_url: https://haxorport.online/AuthToken/validate
+base_domain: ""
+connection_mode: "websocket"  # Options: websocket, direct_tcp
+control_port: 443
+data_port: 0
+log_file: logs/haxorport-client.log
+log_level: warn
+server_address: control.haxorport.online
+tls_cert: ""
+tls_enabled: true
+tls_key: ""
+tunnels: []

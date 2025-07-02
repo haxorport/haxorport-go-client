@@ -1,0 +1,13 @@
+auth_enabled: true
+auth_token: mFZzPMtTyzZfmF28TWqm_atuaTPwF2WWeExA9CfNS
+auth_validation_url: https://haxorport.online/AuthToken/validate
+base_domain: ""
+control_port: 443
+data_port: 0
+log_file: logs/haxor-client.log
+log_level: warn
+server_address: control.haxorport.online
+tls_cert: ""
+tls_enabled: true
+tls_key: ""
+tunnels: []

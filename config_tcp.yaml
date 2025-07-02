@@ -1,0 +1,23 @@
+auth_enabled: true
+auth_token: "hxp_5c08c77c9bc999a673d4aa2514aa17ac"
+auth_validation_url: https://haxorport.online/AuthToken/validate
+base_domain: "haxorport.online"
+control_port: 7000  # Port for direct tunnel server
+data_port: 0
+connection_mode: "direct_tcp"  # Options: websocket, direct_tcp
+log_file: logs/haxorport-client-tcp.log
+log_level: debug
+server_address: tcp.haxorport.online
+tls_cert: ""
+tls_enabled: false
+tls_key: ""
+buffer_size: 32768
+read_timeout: 30s
+write_timeout: 30s
+keepalive_interval: 10s
+tunnels:
+  - type: tcp
+    local_port: 2222
+    remote_port: 11022
+    target_host: "localhost"
+    target_port: 22

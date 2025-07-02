@@ -1,0 +1,32 @@
+# Example configuration for Haxorport Client
+
+# Haxorport server address
+server_address: "control.haxorport.online"
+
+# Port for control plane
+control_port: 443
+
+# Port for data plane
+data_port: 0
+
+# Authentication configuration
+auth_enabled: true
+auth_token: "your-auth-token"
+auth_validation_url: "https://haxorport.online/AuthToken/validate"
+
+# TLS configuration
+tls_enabled: true
+tls_cert: ""
+tls_key: ""
+
+# Base domain for tunnel subdomains
+base_domain: ""
+
+# Logging level (debug, info, warn, error)
+log_level: "warn"
+
+# Path to log file (empty for stdout)
+log_file: "logs/haxorport-client.log"
+
+# List of tunnels to create at startup
+tunnels: []

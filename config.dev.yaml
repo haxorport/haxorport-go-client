@@ -1,0 +1,14 @@
+# Haxorport Client Configuration for Development
+auth_enabled: true
+auth_token: ""
+auth_validation_url: "https://haxorport.online/AuthToken/validate"
+base_domain: ""
+control_port: 9080
+data_port: 0
+log_file: "logs/haxorport-client.log"
+log_level: debug  # Use debug to see more information
+server_address: localhost
+tls_cert: ""
+tls_enabled: false
+tls_key: ""
+tunnels: []
